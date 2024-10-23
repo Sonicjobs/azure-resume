@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: cover; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -280,6 +280,28 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+.cert-icon {
+   width: 50px;      /* Adjust the size as needed */
+   height: auto;     /* Maintain the aspect ratio */
+   vertical-align: middle; /* Align with the text */
+   margin-right: 10px; /* Spacing between the icon and the text */
+}
+
+.college-icon {
+   width: 80px;      /* Adjust the size as needed */
+   height: auto;     /* Maintain the aspect ratio */
+   vertical-align: middle; /* Align with the text */
+   margin-right: 10px; /* Spacing between the icon and the text */
+}
+
+#resume .main-col {
+   padding-right: 10%; /* Ensure spacing is consistent for all sections */
+}
+
+#resume .row.item {
+   margin-bottom: 48px; /* Maintain consistent spacing between sections */
+}
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
